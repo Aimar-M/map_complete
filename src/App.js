@@ -1,13 +1,13 @@
 import './App.css';
-import { MapContainer, TileLayer, Marker } from 'react-leaflet'
+import {MapContainer, TileLayer, Marker, Popup} from 'react-leaflet'
 import {Icon} from "leaflet";
 import "leaflet/dist/leaflet.css"
-
+import facilitiesData from "./assets/data.json"
 
 function App() {
     const markers = [
         {
-            geocode: [48.86, 2.3522],
+            geocode: [48.8566, 2.3522],
             popup: "pharmacy continental"
         },
         {
@@ -25,14 +25,22 @@ function App() {
 
   return (
       // coordinates for rwanda: [-1.9146409839831982, 30.05164869832044]
-      <MapContainer center={[48.8566, 2.3522]} zoom={12.5}>
+      <MapContainer center={[-1.9440727, 30.0618851]} zoom={12.5}>
           <TileLayer
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
 
+          <Marker position={[48.8566, 2.3522]} icon={customIcon}> </Marker>
           {markers.map(marker => {
-              <Marker position={marker.geocode}></Marker>
+              return <Marker position={marker.geocode} icon={customIcon}></Marker>
+          })}
+          {facilitiesData.map(marker => {
+              return <Marker position={[marker.latitude, marker.longitude]} icon={customIcon}>
+                  <Popup>
+                        <p>{marker.name}</p>
+                  </Popup>
+              </Marker>
           })}
 
       </MapContainer>
