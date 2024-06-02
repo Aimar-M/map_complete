@@ -94,4 +94,109 @@
     width: 90%;
     padding-top: 2%;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+}
+
+.pharmacyHead {
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    column-gap: 2%;
+}
+
+.pharmacyHead div {
+    width: 3%;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+}
+
+.pharmacyHead p {
+    font-family: inter;
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+
+.pharmacyList {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    aspect-ratio: 1/0.13;
+    flex-wrap: wrap;
+    column-gap: 9.3%;
+    row-gap: 17%;
+    overflow: hidden;
+}
+
+.list {
+    width: 18%;
+    aspect-ratio: 1/0.3;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plus {
+    width: 28%;
+    background-color: #19d883;
+    aspect-ratio: 1/1;
+    padding: 4%;
+    border-radius: 10px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    aspect-ratio: 1/0.4;
+    font-size: 1vw;
+    font-family: inter;
+    font-weight: 400;
+}
+
+.nm {
+    display: flex;
+    width: 100%;
+    aspect-ratio: 1/0.1;
+    overflow: hidden;
+}
+
+.nm div {
+    width: 53%;
+    word-break: break-all;
+}
+
+.ad {
+    display: flex;
+    width: 100%;
+    aspect-ratio: 1/0.1;
+    overflow: hidden;
+    font-size: 0.8vw;
+}
+
+.ad div {
+    width: 80%;
+    word-break: break-all;
+}
+
+.stars {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.stars div {
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
 }

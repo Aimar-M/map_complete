@@ -10,4 +10,5 @@
   padding-left: 1vw;
   padding-right: 1vw;
   box-sizing: border-box;
+  overflow-x: hidden;
 }

@@ -1,7 +1,6 @@
 import './App.css';
 import Header from './header';
 import Content from './content';
-import Map from './map';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Home/home';
 
