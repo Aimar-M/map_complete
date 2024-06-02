@@ -22,6 +22,9 @@ function Home () {
                 </div>
                 <div className='img1'></div>
             </section>
+            <section className='pharmacy'>
+
+            </section>
         </section>
     );
 }
