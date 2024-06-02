@@ -1,4 +1,4 @@
-[
+const locations = [
   {
     "name": "CAREPLUS PHARMACY LTD",
     "latitude": -1.9440727,
@@ -300,3 +300,5 @@
     "longitude": 30.0775225
   }
 ]
+
+export default locations;

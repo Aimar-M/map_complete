@@ -1,0 +1,82 @@
+.home {
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.intro {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    width: 40%;
+    aspect-ratio: 1/0.82;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    border: 1px solid black;
+    padding-top: 1%;
+    padding-bottom: 0.3%;
+}
+
+.note {
+    font-family: inter;
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    width: 100%;
+    aspect-ratio: 1/0.47;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.note .heading {
+    font-size: 43px;
+    font-weight: 600;
+}
+
+.infoUtilities {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoUtilities form {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 5%;
+}
+
+.infoUtilities input {
+    width: 52%;
+    aspect-ratio: 1/0.16;
+    border: 1px solid #B6BCB9;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inter;
+}
+
+.infoUtilities button {
+    width: 7.8%;
+    aspect-ratio: 1/1;
+    padding: 1.5%;
+    background-color: #19d883;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.img1 {
+    width: 30%;
+    aspect-ratio: 1/1.1;
+    background-image: url(/public/Rectangle\ 1241.png);
+}

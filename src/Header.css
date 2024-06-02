@@ -1,0 +1,148 @@
+.navigation {
+    height: 8vh;
+    width: 98vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e3e5e4;
+}
+
+.logoContainer {
+    height: 6vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav2 {
+    height: 6vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-size: 1vw;
+}
+
+.pages {
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1%;
+}
+
+.main {
+    height: 6vh;
+    width: 68%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    font-weight: 400;
+    font-family: inter;
+    font-size: 1vw;
+    color: #000;
+    text-decoration: none;
+}
+
+.divider {
+    height: 3vh;
+    width: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notification {
+    width: 7%;
+    height: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+
+.messages {
+    width: 50%;
+    height: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.messages div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    position: absolute;
+    font-family: inter;
+    font-size: 0.7vw;
+    font-weight: 600;
+    z-index: index 2;
+    top: -14%;
+    left: 80%;
+    border-radius: 50%;
+    border: 1px solid #B6BCB9;
+    color: #000;
+    
+}
+
+.login {
+    width: 15%;
+    height: 4.5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    font-family: inter;
+    font-weight: 400;
+    color: #000;
+    font-size: 1vw;
+    border: 1px solid #e3e5e4;
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.login div {
+    width: 28%;
+    height: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup {
+    width: 15%;
+    height: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: inter;
+    font-weight: 400;
+    color: #fff;
+    font-size: 1vw;
+    background-color: #18c378;
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
