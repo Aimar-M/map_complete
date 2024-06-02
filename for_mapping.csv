@@ -1,61 +1,61 @@
-name,latitude,longitude
-CAREPLUS PHARMACY LTD,-1.9440727,30.0618851
-HEALTHCARE PHARMACY,-1.94618,30.0568895
-"Kipharma Pharmacy, Nyarugenge",-1.9462984,30.05718359999999
-Safecare Pharmacy,-1.9443209,30.0586805
-Afia Pharma,-1.969177499999999,30.0772754
-Agrovet Supply Company,-1.9440727,30.0618851
-City Pharmacy Ltd,-1.947453,30.0570472
-Health Link Pharmacy,-1.946558799999999,30.0573587
-Pharmacie Umurava,-1.9237635,30.05741879999999
-Pharmacie Conseil,-1.9502335,30.05931269999999
-Pharmacie Conseil,-1.9366119,30.0993425
-Pharmacie Unique,-1.9579387,30.1064607
-Abacus Pharma Alam,-1.9450175,30.0596491
-Akayezu Jean Baptiste,-1.9440727,30.0618851
-Biopharmacia,-1.9567157,30.0636349
-Pharmacie Continentale,-1.960797599999999,30.1074967
-"Kipharma Pharmacy, Nyarutarama (B4)",-1.9262023,30.09730049999999
-"Kipharma Pharmacy, Remera (B1)",-1.9581439,30.1115895
-Fadhil pharmacy,-1.9671956,30.058307
-Tercera Pharmacy,-1.9524035,30.0914815
-Pharmacy,-1.9479822,30.0499959
-Sunshine Pharmacy,-1.9358332,30.0994723
-amigos pharmacy kigali Rwanda,-1.980023900000001,30.13354959999999
-Atlas pharmacy ltd,-1.9406561,30.0480576
-Jordan Pharmacy,-1.9706983,30.0774601
-QL PHARMACY,-1.9282769,30.0647816
-"Vine Pharmacy, Gacuriro",-1.9254177,30.09716159999999
-Bienveillance,-1.9440727,30.0618851
-Dorrie Pharmacy,-1.9583069,30.0540914
-Nathanya pharmacy Ltd,-1.9640021,30.06017959999999
-Vine Pharmacy,-1.9500467,30.1244316
-Pharmacie Tresor,-1.9411463,30.05905540000001
-Pharmacie Exodus,-1.991181,30.0463012
-Score Pharmacy,-1.9456695,30.0680106
-Teta Pharmacy Kimironko,-1.9496804,30.12491440000001
-Adrenaline Pharmacy Ltd,-1.9683499,30.12141
-Exemplary Pharmacy,-1.968518,30.057712
-Vitalis Pharmacy Ltd,-1.9237635,30.05741879999999
-Akagera Agrovet Association,-1.9440727,30.0618851
-Multiphar Rwanda Ltd,-1.9443209,30.0586805
-Destophar Pharmacy,-1.939185599999999,30.077243
-Medplus Pharmacy ltd,-1.9273203,30.0563754
-Gilmed Pharmaceutical Wholesale,-1.931460199999999,30.0719596
-Ngabo Pharmacy,-1.9591891,30.1095885
-Nima Pharmacy,-1.9658003,30.05993489999999
-Sana Pharmacy,-1.9444865,30.0591321
-Miracle Pharmacy,-1.9441156,30.0605976
-Belle Toile,-1.9567157,30.0636349
-Pharmacie Sangwa,-1.9567157,30.0636349
-ADVANCED PHARMACY,-1.9152687,30.0669518
-"Vine Pharmacy, Kigali Heights",-1.9529828,30.0927954
-Pharmacie Marebe,-1.9567157,30.0636349
-Pharmacie Fidele,-1.945512299999999,30.06005919999999
-AFRI Health Care Pharmacy,-1.946101,30.0568888
-Pharma Plus Pharmacy,-1.9415781,30.04563910000001
-Sanophar Pharmacy,-1.9408725,30.0474995
-Motley Healthcare Ltd,-1.939394,30.0590673
-Peace Pharmacy,-1.9558171,30.0535629
-Pharmacie Conseil,-1.95087,30.09284349999999
-Shoppers (a mutti Pharmacy),-1.9705124,30.0775225
+name,latitude,longitude,address,Opening: Monday,Opening: Tuesday,Opening: Wednesday,Opening: Thursday,Opening: Friday,Opening: Saturday,Opening: Sunday,Insurance,Delivery,Prescription,Ratings
+CAREPLUS PHARMACY LTD,-1.9440727,30.0618851,"3346+9QC, KN KIGALI, Kigali, Rwanda",9:00 AM - 8:00 PM,8:00 AM - 6:00 PM,10:00 AM - 10:00 PM,6:00 AM - 7:00 PM,9:00 AM - 6:00 PM,7:00 AM - 5:00 PM,7:00 AM - 5:00 PM,"African Reinsurance Corporation, Phoenix of Rwanda Assurance, Prime Insurance",Yes,No,3
+HEALTHCARE PHARMACY,-1.94618,30.0568895,"KN 74 St, Kigali, Rwanda",8:00 AM - 9:00 PM,7:00 AM - 7:00 PM,9:00 AM - 8:00 PM,10:00 AM - 10:00 PM,8:00 AM - 5:00 PM,8:00 AM - 10:00 PM,7:00 AM - 5:00 PM,"SONARWA, Mayfair Insurance, RADIANT Yacu, Britam Insurance, Cogear",No,No,5
+"Kipharma Pharmacy, Nyarugenge",-1.9462984,30.0571836,"KN 74 Street, Nyarugenge, Kigali, Rwanda",8:00 AM - 10:00 PM,7:00 AM - 5:00 PM,9:00 AM - 6:00 PM,8:00 AM - 5:00 PM,7:00 AM - 9:00 PM,6:00 AM - 10:00 PM,6:00 AM - 5:00 PM,"Phoenix of Rwanda Assurance, Mayfair Insurance, SONARWA, Radiant Insurance",No,No,4
+Safecare Pharmacy,-1.9443209,30.0586805,"KN 2 St, Kigali, Rwanda",9:00 AM - 5:00 PM,9:00 AM - 5:00 PM,6:00 AM - 5:00 PM,7:00 AM - 7:00 PM,8:00 AM - 5:00 PM,9:00 AM - 5:00 PM,9:00 AM - 6:00 PM,Phoenix of Rwanda Assurance,No,No,2
+Afia Pharma,-1.9691775,30.0772754,"KK 698 St, Kigali, Rwanda",10:00 AM - 5:00 PM,8:00 AM - 9:00 PM,8:00 AM - 9:00 PM,10:00 AM - 7:00 PM,8:00 AM - 6:00 PM,10:00 AM - 7:00 PM,9:00 AM - 6:00 PM,"RADIANT Yacu, Mayfair Insurance, Cogear, Prime Insurance",Yes,Yes,1
+Agrovet Supply Company,-1.9440727,30.0618851,"Unnamed Road, Kigali, Rwanda",9:00 AM - 6:00 PM,6:00 AM - 6:00 PM,10:00 AM - 5:00 PM,8:00 AM - 10:00 PM,9:00 AM - 8:00 PM,8:00 AM - 7:00 PM,7:00 AM - 7:00 PM,"CIC Insurance, Cogear, RSSB",No,Yes,3
+City Pharmacy Ltd,-1.947453,30.0570472,"KN76ST Outside, Kigali City Market, Kigali, Rwanda",9:00 AM - 5:00 PM,8:00 AM - 5:00 PM,10:00 AM - 8:00 PM,8:00 AM - 9:00 PM,10:00 AM - 9:00 PM,10:00 AM - 8:00 PM,6:00 AM - 10:00 PM,"SONARWA, African Reinsurance Corporation, Akagera & Rhein Insurance, Soras",Yes,Yes,5
+Health Link Pharmacy,-1.9465588,30.0573587,"KN 74 St, Kigali, Rwanda",10:00 AM - 6:00 PM,9:00 AM - 9:00 PM,7:00 AM - 8:00 PM,10:00 AM - 6:00 PM,9:00 AM - 5:00 PM,8:00 AM - 9:00 PM,8:00 AM - 5:00 PM,"Prime Insurance, UAP Insurance, Soras",No,No,4
+Pharmacie Umurava,-1.9237635,30.0574188,"KN 2 Ave, Kigali, Rwanda",9:00 AM - 8:00 PM,8:00 AM - 8:00 PM,8:00 AM - 8:00 PM,6:00 AM - 5:00 PM,6:00 AM - 7:00 PM,10:00 AM - 7:00 PM,10:00 AM - 9:00 PM,"RSSB, Britam Insurance, Radiant Insurance, Cogear",Yes,No,2
+Pharmacie Conseil,-1.9502335,30.0593127,"KN 78 St, Kigali, Rwanda",10:00 AM - 5:00 PM,6:00 AM - 9:00 PM,8:00 AM - 8:00 PM,7:00 AM - 5:00 PM,7:00 AM - 10:00 PM,9:00 AM - 7:00 PM,6:00 AM - 8:00 PM,"RADIANT Yacu, Mayfair Insurance, CIC Insurance, SONARWA",Yes,No,1
+Pharmacie Conseil,-1.9366119,30.0993425,"KG 521 St, Kigali, Rwanda",10:00 AM - 9:00 PM,6:00 AM - 9:00 PM,7:00 AM - 6:00 PM,7:00 AM - 10:00 PM,10:00 AM - 10:00 PM,6:00 AM - 10:00 PM,10:00 AM - 7:00 PM,"UAP Insurance, Soras, Prime Insurance, RADIANT Yacu",No,Yes,5
+Pharmacie Unique,-1.9579387,30.1064607,"KG 201 St, Kigali, Rwanda",10:00 AM - 10:00 PM,8:00 AM - 6:00 PM,10:00 AM - 8:00 PM,6:00 AM - 6:00 PM,9:00 AM - 10:00 PM,10:00 AM - 9:00 PM,10:00 AM - 6:00 PM,African Reinsurance Corporation,No,Yes,3
+Abacus Pharma Alam,-1.9450175,30.0596491,"3335+XVR, KN 70 St, Kigali, Rwanda",10:00 AM - 7:00 PM,10:00 AM - 10:00 PM,9:00 AM - 6:00 PM,8:00 AM - 9:00 PM,10:00 AM - 6:00 PM,10:00 AM - 9:00 PM,6:00 AM - 9:00 PM,RADIANT Yacu,Yes,Yes,4
+Akayezu Jean Baptiste,-1.9440727,30.0618851,"Kigali, Rwanda",6:00 AM - 7:00 PM,7:00 AM - 8:00 PM,6:00 AM - 5:00 PM,8:00 AM - 6:00 PM,10:00 AM - 6:00 PM,9:00 AM - 8:00 PM,8:00 AM - 5:00 PM,"SONARWA, East Africa Re, Soras, Radiant Insurance",Yes,Yes,2
+Biopharmacia,-1.9567157,30.0636349,"Kigali, Rwanda",7:00 AM - 9:00 PM,6:00 AM - 8:00 PM,10:00 AM - 9:00 PM,7:00 AM - 10:00 PM,7:00 AM - 6:00 PM,6:00 AM - 10:00 PM,7:00 AM - 9:00 PM,"RSSB, Britam Insurance, MUA Insurance, African Reinsurance Corporation",Yes,Yes,1
+Pharmacie Continentale,-1.9607976,30.1074967,"KG 1 Ave, Kigali, Rwanda",7:00 AM - 5:00 PM,6:00 AM - 8:00 PM,6:00 AM - 7:00 PM,8:00 AM - 5:00 PM,6:00 AM - 9:00 PM,6:00 AM - 7:00 PM,10:00 AM - 9:00 PM,"Phoenix of Rwanda Assurance, RADIANT Yacu, East Africa Re, Akagera & Rhein Insurance, Mayfair Insurance",Yes,No,3
+"Kipharma Pharmacy, Nyarutarama (B4)",-1.9262023,30.0973005,"KG 9 Avenue Tee Off Tower, Kigali, Rwanda",8:00 AM - 7:00 PM,7:00 AM - 8:00 PM,7:00 AM - 7:00 PM,10:00 AM - 7:00 PM,8:00 AM - 5:00 PM,6:00 AM - 10:00 PM,9:00 AM - 7:00 PM,"UAP Insurance, Phoenix of Rwanda Assurance, Akagera & Rhein Insurance, RADIANT Yacu, SONARWA",Yes,No,5
+"Kipharma Pharmacy, Remera (B1)",-1.9581439,30.1115895,"KG 11 Ave, Kigali, Rwanda",7:00 AM - 10:00 PM,9:00 AM - 7:00 PM,9:00 AM - 8:00 PM,9:00 AM - 7:00 PM,10:00 AM - 8:00 PM,10:00 AM - 8:00 PM,7:00 AM - 8:00 PM,"Phoenix of Rwanda Assurance, RSSB, CIC Insurance, Akagera & Rhein Insurance, UAP Insurance",Yes,No,4
+Fadhil pharmacy,-1.9671956,30.058307,"KN 2 Ave, Kigali, Rwanda",6:00 AM - 9:00 PM,9:00 AM - 6:00 PM,10:00 AM - 8:00 PM,8:00 AM - 7:00 PM,6:00 AM - 8:00 PM,9:00 AM - 10:00 PM,10:00 AM - 5:00 PM,"Cogear, Mayfair Insurance, CIC Insurance, UAP Insurance, RSSB",No,Yes,2
+Tercera Pharmacy,-1.9524035,30.0914815,"Kigali Business Centre, KN 5 Rd, Kigali, Rwanda",7:00 AM - 6:00 PM,10:00 AM - 7:00 PM,9:00 AM - 6:00 PM,9:00 AM - 8:00 PM,9:00 AM - 10:00 PM,8:00 AM - 9:00 PM,7:00 AM - 10:00 PM,"Prime Insurance, Cogear, Akagera & Rhein Insurance",Yes,Yes,1
+Pharmacy,-1.9479822,30.0499959,"322X+RX5, Kigali, Rwanda",7:00 AM - 5:00 PM,10:00 AM - 8:00 PM,10:00 AM - 9:00 PM,9:00 AM - 7:00 PM,10:00 AM - 5:00 PM,9:00 AM - 10:00 PM,7:00 AM - 9:00 PM,"Prime Insurance, SONARWA, Britam Insurance, Akagera & Rhein Insurance",No,No,3
+Sunshine Pharmacy,-1.9358332,30.0994723,"KG 9 Ave, Kigali, Rwanda",10:00 AM - 10:00 PM,9:00 AM - 9:00 PM,8:00 AM - 8:00 PM,7:00 AM - 9:00 PM,9:00 AM - 7:00 PM,6:00 AM - 7:00 PM,9:00 AM - 6:00 PM,"Soras, Mayfair Insurance, SONARWA",Yes,No,5
+amigos pharmacy kigali Rwanda,-1.9800239,30.1335496,"249M+XCV, KK 18 Ave, Kigali, Rwanda",7:00 AM - 5:00 PM,9:00 AM - 10:00 PM,10:00 AM - 7:00 PM,7:00 AM - 6:00 PM,8:00 AM - 9:00 PM,8:00 AM - 6:00 PM,9:00 AM - 9:00 PM,"Radiant Insurance, Mayfair Insurance, RSSB",No,No,4
+Atlas pharmacy ltd,-1.9406561,30.0480576,"Kigali, Rwanda",6:00 AM - 8:00 PM,8:00 AM - 5:00 PM,9:00 AM - 10:00 PM,10:00 AM - 9:00 PM,10:00 AM - 7:00 PM,8:00 AM - 10:00 PM,8:00 AM - 7:00 PM,"UAP Insurance, Phoenix of Rwanda Assurance",No,No,2
+Jordan Pharmacy,-1.9706983,30.0774601,"KK 31 Ave, Kigali, Rwanda",7:00 AM - 7:00 PM,10:00 AM - 6:00 PM,9:00 AM - 8:00 PM,7:00 AM - 7:00 PM,9:00 AM - 10:00 PM,9:00 AM - 10:00 PM,7:00 AM - 5:00 PM,Soras,Yes,Yes,1
+QL PHARMACY,-1.9282769,30.0647816,"Kwa Gakire, Kigali, Rwanda",8:00 AM - 10:00 PM,10:00 AM - 8:00 PM,7:00 AM - 5:00 PM,6:00 AM - 8:00 PM,9:00 AM - 8:00 PM,8:00 AM - 6:00 PM,6:00 AM - 7:00 PM,"African Reinsurance Corporation, Mayfair Insurance, RSSB, SONARWA",No,Yes,3
+"Vine Pharmacy, Gacuriro",-1.9254177,30.0971616,"KG 9 Ave, Kigali, Rwanda",7:00 AM - 5:00 PM,10:00 AM - 6:00 PM,10:00 AM - 8:00 PM,8:00 AM - 7:00 PM,7:00 AM - 7:00 PM,9:00 AM - 10:00 PM,6:00 AM - 10:00 PM,"UAP Insurance, SONARWA, East Africa Re",No,No,5
+Bienveillance,-1.9440727,30.0618851,"Kigali, Rwanda",6:00 AM - 9:00 PM,10:00 AM - 6:00 PM,9:00 AM - 8:00 PM,7:00 AM - 5:00 PM,6:00 AM - 9:00 PM,10:00 AM - 10:00 PM,10:00 AM - 5:00 PM,"African Reinsurance Corporation, Prime Insurance, MUA Insurance, East Africa Re",Yes,No,4
+Dorrie Pharmacy,-1.9583069,30.0540914,"KN 20 Ave, Kigali, Rwanda",9:00 AM - 8:00 PM,10:00 AM - 8:00 PM,7:00 AM - 6:00 PM,7:00 AM - 8:00 PM,6:00 AM - 10:00 PM,9:00 AM - 10:00 PM,8:00 AM - 6:00 PM,"RSSB, Prime Insurance, Mayfair Insurance, CIC Insurance",Yes,Yes,2
+Nathanya pharmacy Ltd,-1.9640021,30.0601796,"23P6+93V, Kigali, Rwanda",8:00 AM - 7:00 PM,9:00 AM - 10:00 PM,6:00 AM - 7:00 PM,7:00 AM - 9:00 PM,10:00 AM - 7:00 PM,7:00 AM - 8:00 PM,10:00 AM - 6:00 PM,"East Africa Re, SONARWA",Yes,Yes,1
+Vine Pharmacy,-1.9500467,30.1244316,"24XF+XQM, KG 165 St, Kigali, Rwanda",9:00 AM - 9:00 PM,6:00 AM - 9:00 PM,9:00 AM - 7:00 PM,8:00 AM - 10:00 PM,8:00 AM - 9:00 PM,7:00 AM - 6:00 PM,6:00 AM - 9:00 PM,RSSB,No,No,3
+Pharmacie Tresor,-1.9411463,30.0590554,"KN 2 Ave, Kigali, Rwanda",10:00 AM - 9:00 PM,7:00 AM - 5:00 PM,10:00 AM - 7:00 PM,6:00 AM - 6:00 PM,7:00 AM - 10:00 PM,9:00 AM - 10:00 PM,10:00 AM - 8:00 PM,"UAP Insurance, African Reinsurance Corporation, SONARWA, Radiant Insurance",No,Yes,5
+Pharmacie Exodus,-1.991181,30.0463012,"Kigali, Rwanda",8:00 AM - 9:00 PM,8:00 AM - 7:00 PM,9:00 AM - 9:00 PM,10:00 AM - 7:00 PM,9:00 AM - 7:00 PM,6:00 AM - 9:00 PM,10:00 AM - 8:00 PM,"CIC Insurance, Prime Insurance, Soras",No,Yes,4
+Score Pharmacy,-1.9456695,30.0680106,"3339+P6J, KN 3 St, Kigali, Rwanda",10:00 AM - 7:00 PM,10:00 AM - 9:00 PM,9:00 AM - 7:00 PM,7:00 AM - 10:00 PM,7:00 AM - 10:00 PM,10:00 AM - 9:00 PM,9:00 AM - 7:00 PM,"CIC Insurance, Cogear, Prime Insurance, MUA Insurance, Radiant Insurance",No,Yes,2
+Teta Pharmacy Kimironko,-1.9496804,30.1249144,"Kigali, Rwanda",6:00 AM - 9:00 PM,9:00 AM - 10:00 PM,9:00 AM - 7:00 PM,10:00 AM - 10:00 PM,9:00 AM - 8:00 PM,9:00 AM - 7:00 PM,9:00 AM - 5:00 PM,"RSSB, African Reinsurance Corporation, MUA Insurance",No,Yes,1
+Adrenaline Pharmacy Ltd,-1.9683499,30.12141,"Kabeza, Kigali, Rwanda",10:00 AM - 10:00 PM,9:00 AM - 6:00 PM,8:00 AM - 7:00 PM,8:00 AM - 9:00 PM,7:00 AM - 10:00 PM,10:00 AM - 10:00 PM,10:00 AM - 7:00 PM,"RSSB, CIC Insurance, Prime Insurance",No,Yes,3
+Exemplary Pharmacy,-1.968518,30.057712,"Kn 14 Avenue, Kigali, Rwanda",6:00 AM - 10:00 PM,9:00 AM - 8:00 PM,8:00 AM - 8:00 PM,9:00 AM - 10:00 PM,9:00 AM - 6:00 PM,9:00 AM - 8:00 PM,7:00 AM - 6:00 PM,"Soras, African Reinsurance Corporation",No,Yes,5
+Vitalis Pharmacy Ltd,-1.9237635,30.0574188,"KG 7 St, Kigali, Rwanda",7:00 AM - 5:00 PM,10:00 AM - 6:00 PM,10:00 AM - 9:00 PM,7:00 AM - 8:00 PM,9:00 AM - 8:00 PM,7:00 AM - 7:00 PM,8:00 AM - 6:00 PM,"Mayfair Insurance, Akagera & Rhein Insurance, CIC Insurance",No,Yes,4
+Akagera Agrovet Association,-1.9440727,30.0618851,"Kigali, Rwanda",9:00 AM - 7:00 PM,7:00 AM - 10:00 PM,9:00 AM - 10:00 PM,9:00 AM - 6:00 PM,7:00 AM - 9:00 PM,8:00 AM - 6:00 PM,10:00 AM - 7:00 PM,Radiant Insurance,Yes,No,2
+Multiphar Rwanda Ltd,-1.9443209,30.0586805,"KN 2 St, Kigali, Rwanda",10:00 AM - 6:00 PM,8:00 AM - 6:00 PM,8:00 AM - 10:00 PM,9:00 AM - 9:00 PM,8:00 AM - 7:00 PM,10:00 AM - 9:00 PM,9:00 AM - 7:00 PM,"Britam Insurance, Phoenix of Rwanda Assurance, African Reinsurance Corporation, Mayfair Insurance, MUA Insurance",No,Yes,1
+Destophar Pharmacy,-1.9391856,30.077243,"25 KG 3 Ave, Kigali, Rwanda",9:00 AM - 10:00 PM,10:00 AM - 7:00 PM,10:00 AM - 6:00 PM,6:00 AM - 6:00 PM,7:00 AM - 8:00 PM,10:00 AM - 8:00 PM,6:00 AM - 8:00 PM,Prime Insurance,No,Yes,3
+Medplus Pharmacy ltd,-1.9273203,30.0563754,"KG 14 Ave, Kigali, Rwanda",10:00 AM - 7:00 PM,7:00 AM - 6:00 PM,9:00 AM - 9:00 PM,8:00 AM - 8:00 PM,6:00 AM - 6:00 PM,7:00 AM - 10:00 PM,8:00 AM - 9:00 PM,"Britam Insurance, Phoenix of Rwanda Assurance, Prime Insurance, UAP Insurance, CIC Insurance",No,No,5
+Gilmed Pharmaceutical Wholesale,-1.9314602,30.0719596,"339C+CQ8, Kigali, Rwanda",7:00 AM - 5:00 PM,9:00 AM - 8:00 PM,10:00 AM - 9:00 PM,6:00 AM - 7:00 PM,6:00 AM - 9:00 PM,9:00 AM - 7:00 PM,9:00 AM - 9:00 PM,"Phoenix of Rwanda Assurance, East Africa Re, Soras",Yes,No,4
+Ngabo Pharmacy,-1.9591891,30.1095885,"kisimenti, KG 201 St, Kigali, Rwanda",9:00 AM - 6:00 PM,7:00 AM - 9:00 PM,8:00 AM - 7:00 PM,6:00 AM - 8:00 PM,9:00 AM - 10:00 PM,8:00 AM - 6:00 PM,6:00 AM - 9:00 PM,"SONARWA, UAP Insurance, CIC Insurance, Cogear",No,Yes,2
+Nima Pharmacy,-1.9658003,30.0599349,"KN 115 St, Kigali, Rwanda",8:00 AM - 9:00 PM,10:00 AM - 6:00 PM,9:00 AM - 7:00 PM,9:00 AM - 7:00 PM,7:00 AM - 10:00 PM,7:00 AM - 9:00 PM,10:00 AM - 9:00 PM,Cogear,No,No,1
+Sana Pharmacy,-1.9444865,30.0591321,"3345+6M2, KN 70 St, Kigali, Rwanda",10:00 AM - 8:00 PM,9:00 AM - 10:00 PM,10:00 AM - 7:00 PM,8:00 AM - 8:00 PM,8:00 AM - 6:00 PM,9:00 AM - 10:00 PM,8:00 AM - 7:00 PM,"East Africa Re, African Reinsurance Corporation, MUA Insurance, RADIANT Yacu, Cogear",No,Yes,3
+Miracle Pharmacy,-1.9441156,30.0605976,"Kigali city center, Kigali, Rwanda",9:00 AM - 8:00 PM,9:00 AM - 6:00 PM,7:00 AM - 10:00 PM,7:00 AM - 9:00 PM,7:00 AM - 8:00 PM,6:00 AM - 8:00 PM,10:00 AM - 6:00 PM,"Cogear, Prime Insurance",Yes,Yes,5
+Belle Toile,-1.9567157,30.0636349,"Kigali, Rwanda",6:00 AM - 8:00 PM,6:00 AM - 10:00 PM,10:00 AM - 9:00 PM,9:00 AM - 6:00 PM,7:00 AM - 8:00 PM,7:00 AM - 9:00 PM,9:00 AM - 10:00 PM,"RSSB, Soras, Mayfair Insurance, UAP Insurance",No,No,4
+Pharmacie Sangwa,-1.9567157,30.0636349,"Kigali, Rwanda",8:00 AM - 6:00 PM,10:00 AM - 7:00 PM,7:00 AM - 8:00 PM,10:00 AM - 9:00 PM,7:00 AM - 8:00 PM,7:00 AM - 10:00 PM,10:00 AM - 8:00 PM,"RADIANT Yacu, MUA Insurance, Mayfair Insurance, SONARWA",Yes,Yes,2
+ADVANCED PHARMACY,-1.9152687,30.0669518,"KG 667 ST, Kigali, Rwanda",7:00 AM - 9:00 PM,6:00 AM - 10:00 PM,9:00 AM - 7:00 PM,9:00 AM - 10:00 PM,8:00 AM - 10:00 PM,9:00 AM - 7:00 PM,8:00 AM - 9:00 PM,"Mayfair Insurance, Soras, RADIANT Yacu, MUA Insurance, East Africa Re",No,No,1
+"Vine Pharmacy, Kigali Heights",-1.9529828,30.0927954,"23WV+R43, KG 2 Roundabout, Kigali, Rwanda",10:00 AM - 8:00 PM,8:00 AM - 7:00 PM,9:00 AM - 7:00 PM,9:00 AM - 10:00 PM,7:00 AM - 9:00 PM,6:00 AM - 10:00 PM,10:00 AM - 6:00 PM,RSSB,Yes,No,3
+Pharmacie Marebe,-1.9567157,30.0636349,"Kigali, Rwanda",7:00 AM - 8:00 PM,9:00 AM - 6:00 PM,6:00 AM - 10:00 PM,9:00 AM - 10:00 PM,6:00 AM - 9:00 PM,10:00 AM - 8:00 PM,9:00 AM - 7:00 PM,"CIC Insurance, RADIANT Yacu",Yes,Yes,5
+Pharmacie Fidele,-1.9455123,30.0600592,"3336+Q2V, KN 4 Ave, Kigali, Rwanda",9:00 AM - 9:00 PM,10:00 AM - 9:00 PM,10:00 AM - 6:00 PM,6:00 AM - 10:00 PM,7:00 AM - 6:00 PM,10:00 AM - 7:00 PM,8:00 AM - 7:00 PM,"CIC Insurance, Radiant Insurance, Cogear",Yes,Yes,4
+AFRI Health Care Pharmacy,-1.946101,30.0568888,"Kigali, Rwanda",7:00 AM - 8:00 PM,6:00 AM - 10:00 PM,8:00 AM - 8:00 PM,9:00 AM - 8:00 PM,6:00 AM - 7:00 PM,8:00 AM - 9:00 PM,10:00 AM - 9:00 PM,RSSB,Yes,Yes,2
+Pharma Plus Pharmacy,-1.9415781,30.0456391,"325W+976, KN 1 Rd, Kigali, Rwanda",10:00 AM - 7:00 PM,8:00 AM - 10:00 PM,8:00 AM - 9:00 PM,7:00 AM - 9:00 PM,8:00 AM - 9:00 PM,7:00 AM - 10:00 PM,9:00 AM - 7:00 PM,"Soras, Akagera & Rhein Insurance",Yes,No,1
+Sanophar Pharmacy,-1.9408725,30.0474995,"325W+MX5, Kigali, Rwanda",6:00 AM - 9:00 PM,10:00 AM - 7:00 PM,9:00 AM - 8:00 PM,8:00 AM - 10:00 PM,8:00 AM - 10:00 PM,9:00 AM - 8:00 PM,6:00 AM - 9:00 PM,Soras,No,No,3
+Motley Healthcare Ltd,-1.939394,30.0590673,"KN 1 Rd, Kigali, Rwanda",8:00 AM - 7:00 PM,6:00 AM - 9:00 PM,10:00 AM - 8:00 PM,10:00 AM - 7:00 PM,9:00 AM - 7:00 PM,10:00 AM - 9:00 PM,7:00 AM - 8:00 PM,"African Reinsurance Corporation, East Africa Re, Soras",No,Yes,5
+Peace Pharmacy,-1.9558171,30.0535629,"23V3+MCG, Kigali, Rwanda",9:00 AM - 7:00 PM,6:00 AM - 8:00 PM,8:00 AM - 9:00 PM,6:00 AM - 7:00 PM,8:00 AM - 10:00 PM,10:00 AM - 9:00 PM,10:00 AM - 6:00 PM,"African Reinsurance Corporation, Phoenix of Rwanda Assurance",No,No,4
+Pharmacie Conseil,-1.95087,30.0928435,"Kigali, Rwanda",6:00 AM - 8:00 PM,10:00 AM - 7:00 PM,8:00 AM - 6:00 PM,7:00 AM - 10:00 PM,7:00 AM - 6:00 PM,6:00 AM - 8:00 PM,8:00 AM - 9:00 PM,"Phoenix of Rwanda Assurance, Cogear, RADIANT Yacu, Radiant Insurance",No,Yes,2
+Shoppers (a mutti Pharmacy),-1.9705124,30.0775225,"Merez, 1, Kigali, Rwanda",7:00 AM - 8:00 PM,8:00 AM - 9:00 PM,6:00 AM - 7:00 PM,7:00 AM - 9:00 PM,8:00 AM - 10:00 PM,10:00 AM - 7:00 PM,7:00 AM - 8:00 PM,"UAP Insurance, Mayfair Insurance, RSSB",Yes,No,1
