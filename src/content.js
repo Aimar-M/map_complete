@@ -2,7 +2,7 @@ import './content.css';
 import Filter from './filter';
 import Map from './map';
 import { createContext, useState } from 'react';
-import locations from './assets/data';
+import { locations, filtry } from './assets/data';
 export const ping = createContext();
 
 export default function Content() {

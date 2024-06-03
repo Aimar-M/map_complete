@@ -1,7 +1,7 @@
 import './filter.css';
-import locations from './assets/data';
+import { locations, filtry } from './assets/data';
 import { ping } from './content';
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 
 function Filter () {
 
@@ -25,17 +25,44 @@ function Filter () {
                 <p className='all'><span>3000  </span>/3000</p>
                 <button onClick={reset}>Reset</button>
             </div>
-            <form className='item2'>
+            <div className='item2'>
                 <input type='text' name='Search' placeholder='   Search...'/>
-                <select onChange={locate} className='selects' name='location' placeholder="Location">
-                    <option value="">Location</option>
-                    {locations.map((location)=>(
-                        <option value={location.name}>{location.name}</option>
-                    ))}
-                </select>
-            </form>
-
+                <FilterList filter="Insurance Provider" list='Insurance'/>
+                <FilterList filter="Delivery" list='Delivery'/>
+                <FilterList filter="Opening Hours" list='Opening Hours'/>
+                <FilterList filter="Prescription" list='Prescription'/>
+            </div>
+            
         </section>
+    );
+}
+
+function FilterList (props) {
+    const [binary, updateBinary] = useState(0);
+
+    const toggle = () => {
+        if (binary === 0) {
+            updateBinary(1);
+        } else {
+            updateBinary(0);
+        }
+    }
+    return(
+        <div className='dropDown'>
+            <div className='dropDownList' onClick={toggle}>
+                <p>{props.filter}</p>
+                <div>
+                    <svg viewBox='0 0 14 14'>
+                        <polyline points="2,4 7,10 12,4" stroke="rgba(0, 0, 0, 0.7)" strokeWidth="1.2" fill="none"/>
+                    </svg>
+                </div>
+            </div>
+            <div className={(binary === 0) ? 'dropContentOff' : 'dropContent'}>
+                {filtry.map((filter)=>(
+                    <button>{filter[`${props.list}`]}</button>
+                ))}
+            </div>
+        </div>
     );
 }
 

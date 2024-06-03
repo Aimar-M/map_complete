@@ -1,6 +1,6 @@
 const csv = require('csvtojson');
 
-const csvFilePath = 'public/for_mapping.csv';
+const csvFilePath = 'public/for_mapping - Drop down menu.csv';
 
 const csvToJson = async (csvFilePath) => {
     try {
@@ -1037,6 +1037,121 @@ const locations = [
     Prescription: 'No',
     Ratings: '1'
   }
+];
+
+const filtry = [
+  {
+    Insurance: 'Radiant Insurance',
+    Prescription: 'Yes',
+    'Opening Hours': 'Monday',
+    field4: 'range 12am -11pm',
+    Delivery: 'Yes'
+  },
+  {
+    Insurance: 'SONARWA',
+    Prescription: 'No',
+    'Opening Hours': 'Tuesday',
+    field4: 'range 12am -11pm',
+    Delivery: 'No'
+  },
+  {
+    Insurance: 'Soras',
+    Prescription: '',
+    'Opening Hours': 'Wenesday',
+    field4: 'range 12am -11pm',
+    Delivery: ''
+  },
+  {
+    Insurance: 'Prime Insurance',
+    Prescription: '',
+    'Opening Hours': 'Thursday',
+    field4: 'range 12am -11pm',
+    Delivery: ''
+  },
+  {
+    Insurance: 'MUA Insurance',
+    Prescription: '',
+    'Opening Hours': 'Friday',
+    field4: 'range 12am -11pm',
+    Delivery: ''
+  },
+  {
+    Insurance: 'Mayfair Insurance',
+    Prescription: '',
+    'Opening Hours': 'Saturday',
+    field4: 'range 12am -11pm',
+    Delivery: ''
+  },
+  {
+    Insurance: 'UAP Insurance',
+    Prescription: '',
+    'Opening Hours': 'Sunday',
+    field4: 'range 12am -11pm',
+    Delivery: ''
+  },
+  {
+    Insurance: 'Britam Insurance',
+    Prescription: '',
+    'Opening Hours': '',
+    field4: '',
+    Delivery: ''
+  },
+  {
+    Insurance: 'Phoenix of Rwanda Assurance',
+    Prescription: '',
+    'Opening Hours': '',
+    field4: '',
+    Delivery: ''
+  },
+  {
+    Insurance: 'Cogear',
+    Prescription: '',
+    'Opening Hours': '',
+    field4: '',
+    Delivery: ''
+  },
+  {
+    Insurance: 'East Africa Re',
+    Prescription: '',
+    'Opening Hours': '',
+    field4: '',
+    Delivery: ''
+  },
+  {
+    Insurance: 'RADIANT Yacu',
+    Prescription: '',
+    'Opening Hours': '',
+    field4: '',
+    Delivery: ''
+  },
+  {
+    Insurance: 'RSSB',
+    Prescription: '',
+    'Opening Hours': '',
+    field4: '',
+    Delivery: ''
+  },
+  {
+    Insurance: 'African Reinsurance Corporation',
+    Prescription: '',
+    'Opening Hours': '',
+    field4: '',
+    Delivery: ''
+  },
+  {
+    Insurance: 'CIC Insurance',
+    Prescription: '',
+    'Opening Hours': '',
+    field4: '',
+    Delivery: ''
+  },
+  {
+    Insurance: 'Akagera & Rhein Insurance',
+    Prescription: '',
+    'Opening Hours': '',
+    field4: '',
+    Delivery: ''
+  }
 ]
 
-export default locations;
+export { locations, filtry };

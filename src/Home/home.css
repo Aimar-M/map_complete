@@ -4,8 +4,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 2%;
-    border: 1px solid black;
+    padding-top: 3%;
+    row-gap: 70px;
 }
 
 /*  INTRO */
@@ -93,57 +93,56 @@
 .pharmacy {
     width: 90%;
     padding-top: 2%;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    
+    justify-content: space-between;
+    align-items: center;
+    aspect-ratio: 1/0.28;
 }
 
 .pharmacyHead {
     width: 100%;
-    border: 1px solid black;
     display: flex;
     align-items: center;
-    column-gap: 2%;
+    column-gap: 1.5%;
 }
 
 .pharmacyHead div {
     width: 3%;
     aspect-ratio: 1/1;
-    border: 1px solid black;
 }
 
 .pharmacyHead p {
     font-family: inter;
-    font-size: 1.4vw;
-    font-weight: 500;
+    font-size: 2vw;
+    font-weight: 300;
+    color: #999;
 }
 
 .pharmacyList {
     display: flex;
     width: 100%;
     align-items: center;
-    aspect-ratio: 1/0.13;
+    aspect-ratio: 1/0.16;
     flex-wrap: wrap;
-    column-gap: 9.3%;
-    row-gap: 17%;
+    column-gap: 9.26%;
+    row-gap: 16.8%;
     overflow: hidden;
+    padding-top: 2%;
 }
 
 .list {
     width: 18%;
     aspect-ratio: 1/0.3;
-    border: 1px solid black;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.23);
 }
 
 .plus {
-    width: 28%;
+    width: 28.1%;
     background-color: #19d883;
     aspect-ratio: 1/1;
     padding: 4%;
@@ -200,3 +199,82 @@
     align-items: center;
     aspect-ratio: 1/1;
 }
+
+.findMore {
+    width: 10%;
+    aspect-ratio: 1/0.3;
+    border: 1px solid #19d883;
+    font-family: inter;
+    font-size: 1vw;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+/* services */
+
+.services {
+    width: 90%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    aspect-ratio: 1/0.36;
+}
+
+.subintro {
+    font-family: inter;
+    font-size: 1.5vw;
+    font-weight: 300;
+    color: #B6BCB9;
+    width: 100%;
+}
+
+.service {
+    width: 100%;
+    aspect-ratio: 1/0.2;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.2%;
+    padding-right: 0.2%;
+}
+
+.serviceList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 24%;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.23);
+}
+
+.view {
+    width: 15%;
+    aspect-ratio: 1/1;
+}
+
+.viewName {
+    font-size: 1.2vw;
+    font-weight: 500;
+    font-family: inter;
+}
+
+.viewSummary {
+    font-size: 1vw;
+    font-weight: 300;
+    font-family: inter;
+    width: 80%;
+    text-align: center;
+}
+
+
+
+

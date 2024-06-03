@@ -50,18 +50,17 @@
 
 .item2 {
     width: 84%;
-    height: 25vh;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    row-gap: 20%;
+    row-gap: 20px;
     position: relative;
 }
 
 .item2 input {
     width: 100%;
-    height: 26%;
+    height: 6vh;
     font-family: inter;
     font-size: 14px;
     border-radius: 5px;
@@ -82,3 +81,80 @@
     position: absolute;
     top: 20;
 }
+
+.dropDown {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+
+.dropDownList {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    width: 100%;
+    border-bottom: 1px solid #B6BCB9;
+    height: 7vh;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+
+.dropDownList p {
+    font-weight: 500;
+    font-family: montserrat;
+    font-size: 1vw;
+    color: #999;
+}
+
+.dropDownList div {
+    width: 5%;
+    aspect-ratio: 1/1;
+}
+
+.dropContent {
+    width: 100%;
+    height: 19vh;
+    overflow: scroll;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    row-gap: 1.1vh;
+    border: 1px solid #B6BCB9;
+    border-top: 0px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.23);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding-top: 1vh;
+    border-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.dropContentOff {
+    display: none;
+}
+
+.dropContent button {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 22%;
+    border: 0px;
+    font-family: montserrat, inter;
+    font-size: 1vw;
+    font-weight: 400;
+    padding-left: 2%;
+    background-color: white;
+}
+  
+
+/*
+<FilterList filter="Delivery"/>
+                <FilterList filter="Opening Hours"/>
+                <FilterList filter="Prescription"/>
+                <FilterList filter="Compounding"/>
+*/
+  
