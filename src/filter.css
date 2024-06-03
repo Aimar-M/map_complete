@@ -1,7 +1,6 @@
 .filter {
     width: 22vw;
     height: 86vh;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -150,11 +149,69 @@
     background-color: white;
 }
   
-
 /*
-<FilterList filter="Delivery"/>
-                <FilterList filter="Opening Hours"/>
-                <FilterList filter="Prescription"/>
-                <FilterList filter="Compounding"/>
+else if (action.type === 'selected2') {
+        state[`${action.index}`] = state[`${action.index}`] + action.value;
+    }
+
+    if (['Insurance', 'Delivery', 'Opening Hours', 'Prescription'].includes(name)) {
+            dispatch({type: 'selected', index: idx, value: arg});
+        } else {
+            dispatch({type: 'selected2', index: idx, value: arg});
+        }
+
+    import './content.css';
+import Filter from './filter';
+import Map from './map';
+import { createContext, useReducer } from 'react';
+import { locations } from './assets/data';
+export const ping = createContext();
+
+function reducer(state, action) {
+    if (action.type === '') {
+        console.log(action.value);
+        return action.value;
+    }
+}
+
+export default function Content() {
+    const [ coOrdinates, updatecoOrdinates] = useReducer(reducer, locations);
+    
+    return (
+        <div className="content">
+            <ping.Provider value={{coOrdinates, updatecoOrdinates}}>
+                <Filter/>
+                <Map/>
+            </ping.Provider>
+        </div>
+    );
+}
+
+
+var locationss = coOrdinates;
+        if (flt[idx] === 'Insurance') {
+            locationss = locations;
+        }
+        var all = [];
+        
+        for (let i = 0; i < locationss.length; i++) {
+            const location = locationss[i];
+            let current;
+          
+            if (idx === 0) {
+              current = location[flt[idx]].split(", ");
+            } else {
+              current = location[flt[idx]];
+            }
+          
+            if (current.includes(arg)) {
+                all.push(location);
+            }
+        }
+        if (state[0] !== 'Insurance' || flt[idx] === 'Insurance') {
+            updatecoOrdinates(all);
+        } else {
+            updatecoOrdinates(locations);
+            updateZoom(12.8);
+        }
 */
-  

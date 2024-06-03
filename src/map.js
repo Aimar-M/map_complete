@@ -7,7 +7,7 @@ import { useContext } from 'react';
 
 
 function Map() {
-    const {coOrdinates} = useContext(ping);
+    const {coOrdinates, zoomm} = useContext(ping);
     console.log(coOrdinates);
 
     const customIcon = new Icon({
@@ -17,7 +17,7 @@ function Map() {
 
     return (
         // coordinates for rwanda: [-1.9146409839831982, 30.05164869832044]
-        <MapContainer center={[-1.9440727, 30.0618851]} zoom={12.5}>
+        <MapContainer center={[-1.9440727, 30.0618851]} zoom={zoomm}>
             <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
