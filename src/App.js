@@ -1,10 +1,13 @@
 import './App.css';
 import Header from './header';
 import Content from './content';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import Home from './Home/home';
+import Footer from './footer/footer';
+
 
 function App() {
+  const locate = useLocation();
   return (
       <section className='App'>
         <Header/>
@@ -16,6 +19,7 @@ function App() {
           <Route path='/login' element={<Content/>}/>
           <Route path='/signup' element={<Content/>}/>
         </Routes>
+        {(locate.pathname === '/pharmacy') ? '' : <Footer/>}
       </section>
   );
 }
