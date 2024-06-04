@@ -1,4 +1,4 @@
-import { locations, filtry } from '../assets/data';
+import { locations } from '../assets/data';
 import { Link } from 'react-router-dom';
 import './home.css'; 
 
@@ -167,7 +167,7 @@ function Home () {
                         </div>
                     </div>
                     <div className='footerContact'>
-                        <p className='footerContactHead'>Contact</p>
+                        <p>Contact</p>
                         <p className='email'>info@kapsuletech.com</p>
                         <div className='office'>
                             <p>London</p>
