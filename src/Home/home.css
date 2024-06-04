@@ -275,6 +275,168 @@
     text-align: center;
 }
 
+.footer {
+    width: 100%;
+    padding-top: 5%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: #162c22;
+    aspect-ratio: 1/0.23;
+    justify-content: space-between;
+    padding-bottom: 1%;
+}
 
+.footerInfo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    aspect-ratio: 1/0.11;
+}
 
+.motto {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    aspect-ratio: 1/0.4;
+    font-family: inter;
+    color: white;
+    font-size: 1vw;
+}
 
+.logoContainer {
+    height: 6vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerService {
+    width: 20%;
+    aspect-ratio: 1/0.5;
+    display: flex;
+    flex-direction: column;
+    row-gap: 9%;
+    font-family: inter;
+    color: white;
+    padding-top: 0.3%;
+}
+
+.footerService p {
+    font-size: 1.5vw;
+    padding-left: 2%;
+}
+
+.footerService div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    aspect-ratio: 1/0.17;
+    flex-direction: column;
+}
+
+.footerServiceLinks {
+    text-decoration: none;
+    color: white;
+    font-family: inter;
+    font-size: 0.95vw;
+}
+
+.footerContact {
+    width: 40%;
+    aspect-ratio: 1/0.3;
+    display: flex;
+    flex-direction: column;
+    row-gap: 9%;
+    font-family: inter;
+    color: white;
+    padding-top: 0.3%;
+    font-size: 1.5vw;
+}
+
+.footerContactHead {
+    padding-left: 1%;
+}
+
+.email {
+    font-size: 0.9vw;
+}
+
+.office {
+    display: flex;
+    flex-direction: column;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.officeAddress {
+    font-size: 0.8vw;
+    font-weight: 400;
+}
+
+.seperatorContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.seperator {
+    width: 40%;
+    aspect-ratio: 1/0.07;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    column-gap: 0.3%;
+    justify-content: center;
+}
+
+.socials div {
+    width: 2%;
+    aspect-ratio: 1/1;
+}
+
+.copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inter;
+    font-size: 1vw;
+    color: white;
+}
+
+/*
+                    <div className='footerService'>
+                        <p>Services</p>
+                        <div>
+                            <Link className='footerServiceLinks' to='/pharmacy'>Health News</Link>
+                            <Link className='footerServiceLinks' to='/pharmacy'>Support</Link>
+                        </div>
+                    </div>
+                    <div className='footerService'>
+                        <p>Company</p>
+                        <div>
+                            <Link className='footerServiceLinks' to='/pharmacy'>Terms and Conditions</Link>
+                            <Link className='footerServiceLinks' to='/pharmacy'>Give Feedback</Link>
+                        </div>
+                    </div>
+                    <div className='footerContact'>
+                        <p className='footerContactHead'>Contact</p>
+                        <p className='email'>info@kapsuletech.com</p>
+                        <div className='office'>
+                            <p>London</p>
+                            <p className='officeAddress'>152 - 160 Kemp House City Road, London, England, EC1V 2NX</p>
+                        </div>
+                        <div className='office'>
+                            <p>Kigali</p>
+                            <p className='officeAddress'>Norrsken Kigali House, KN 78 St, Kigali, Rwanda</p>
+                        </div>
+                    </div>
+*/
