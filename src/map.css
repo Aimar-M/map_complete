@@ -2,3 +2,24 @@
     width: 70vw;
     height: 86vh;
 }
+
+.mapInfo {
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+}
+
+.starMap {
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.starMap div {
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+}
